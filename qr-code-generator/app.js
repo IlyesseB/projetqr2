@@ -1,8 +1,8 @@
 // L'URL de votre modèle 3D hébergé
-const modelURL = 'https://exemple.com/mon-model.gltf';
+const modelURL = 'https://exemple.com/models/mon-model.gltf';
 
 // L'URL de votre site Web qui affiche le modèle 3D
-const viewerURL = 'https://exemple.com/mon-afficheur-3d';
+const viewerURL = 'https://exemple.com/3d-viewer/afficheur-3d.html';
 
 // Créez un objet QRCode avec l'élément HTML pour afficher le code QR
 const qrcode = new QRCode(document.getElementById('qrcode'), {
